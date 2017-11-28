@@ -1,5 +1,5 @@
 ; 16 bits starting at 0x7C00.
-BITS 16 ; Se trabaja con 16bits
+BITS 16 ; Se trabaja con 16bits jknkjnjnj
 ORG 0x7C00 ; Se comienza en esta posicion
 
 BSS             EQU 0x504     ; The byte at 0x500 is also used, so align on next dword bound.
