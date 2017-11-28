@@ -1,6 +1,6 @@
-; 16 bits, starting at 0x7C00.
+; Se trabaja con 16 bits, se inicia en la dirección 0x7C00.
 BITS 16
-ORG 0x7C00
+ORG 0x7C00 ; ORG se utiliza para indicarle al programa que inicie en dicha dirección
 
 BSS             EQU 0x504     ; The byte at 0x500 is also used, so align on next dword bound.
 BSS_SIZE        EQU 438
